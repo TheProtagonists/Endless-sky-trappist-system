@@ -1,0 +1,5 @@
+name Trappist-system
+about Adds the trappist system near sol and two landable planets for a little bit of flavor
+version 1.0.0
+authors
+	TheProtagonists

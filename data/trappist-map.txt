@@ -1,0 +1,92 @@
+system Sol
+	add link Trappist
+
+system Denebola
+	add link Trappist
+
+system Sirius
+	add link Trappist
+
+system Trappist
+	pos -420 56
+	government Republic
+	attributes "near earth"
+	arrival 550
+	habitable 720
+	belt 1000
+	haze _menu/haze-67
+	link Denebola
+	link Sirius
+	link Sol
+	trade Clothing 276
+	trade Electronics 711
+	trade Equipment 445
+	trade Food 521
+	trade "Heavy Metals" 887
+	trade Industrial 608
+	trade "Luxury Goods" 1253
+	trade Medical 479
+	trade Metal 443
+	trade Plastic 298
+	asteroids "small rock" 25 3.25
+	asteroids "small metal" 10 4.125
+	minables iron 5 3.875
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 800
+	fleet "Paradise Merchants" 900
+	fleet "Small Republic" 1250
+	fleet "Large Republic" 2750
+	fleet "Republic Logistics" 2750
+	object
+		sprite star/m8
+		period 99
+	object
+		sprite planet/dust0-b
+		distance 129.4
+		period 19.878
+	object
+		sprite planet/rock17
+		distance 246.8
+		period 58.121
+	object
+		sprite planet/desert7-b
+		distance 369.4
+		period 129.17
+	object Lotus
+		sprite planet/ocean0-b
+		distance 581.9
+		period 251.36
+	object Temperance
+		sprite planet/ocean9-b
+		distance 896.9
+		period 382.71
+	object
+		sprite planet/cloud2
+		distance 1265.3
+		period 789.962
+	object
+		sprite planet/ice7-b
+		distance 1789.1
+		period 1256.35
+
+planet Lotus
+	attributes "near earth" fishing
+	landscape land/sky1
+	description `Originally designated as Trappist-e, planets in this system has long been the interest of astronomers back when interstellar travel was but a distant dream of humanity. While Lotus was among the first near Earth planets to be colonized, its lack of land area, low gravity, and tidally locked nature ultimately prevented it from growing into a major population center as better colonization targets were settled. Thus, subsequent terrafoming efforts focused on enhancing the aquaculture potential of Lotus, and it remains a significant source of seafood exports in the region.`
+	spaceport `The spaceport consists of a series of landing pads on the nothern shore on the largest island, with cargo terminals and refuelling facilities built into the mountains flanking the shore.`
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	security 0.2
+	tribute 900
+		threshold 4000
+		fleet "Small Republic" 35
+
+planet Temperance
+	attributes "near earth" tourism
+	landscape land/sea19
+	description `Originally designated as Trappist-f, planets in this system has long been the interest of astronomers back when interstellar travel was but a distant dream of humanity. Unlike Lotus, Temperance initially had a much colder and harsher climate that delayed its colonization for over thirty years. Today, Temperance's primary offering is its tourism industry, as its dark side ice sheets and twilight zone archipelagos offer quite the unworldly views close to Earth.`
+	spaceport `The spaceport follows the shape atop a string of atolls that extends into a shallow patch of ocean. Access to hotels and other tourist facilities takes precedence over cargo and starship servicing buildings.`
+	security 0.2
+	tribute 600
+		threshold 3000
+		fleet "Small Republic" 25
