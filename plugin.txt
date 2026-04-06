@@ -1,0 +1,5 @@
+name Trappist-system
+about `Adds a vaguely realistic interpretation of the Trappist system near Sol with two landable planets in it for a little bit of flavor`
+version 1.0.0
+authors
+	TheProtagonists
